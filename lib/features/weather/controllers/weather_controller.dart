@@ -8,7 +8,7 @@ abstract class WeatherController {
 }
 
 class WeatherControllerImpl implements WeatherController {
-  static const _apiKey = 'ebc699efd3612c448621390384da1667';
+  static const _apiKey = '';
 
   @override
   Future<WeatherResponseModel> getWeather(String cityName) async {
